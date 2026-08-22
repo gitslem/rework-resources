@@ -1,76 +1,141 @@
-Rework Resources
+# Rework Resources
 
-Free, professional-grade learning resources designed to help individuals and businesses adopt modern tools, workflows, and AI systems.
+Free, professional-grade learning resources from [Rework Digital](https://reworkdigital.io) — hands-on labs, case studies, templates, tool comparisons, and industry playbooks for AI automation professionals.
 
+48 resources across 11 folders. All content is open for personal and professional use.
 
-  What This Is
+---
 
-Rework Resources is a curated learning hub built for:
+## Resource Library (23)
 
-- Founders and small businesses
-- Professionals upgrading their skills
-- Teams adopting AI and automation
+The headline resources featured on [reworkdigital.io/resources](https://reworkdigital.io/resources/).
 
-Instead of scattered tutorials, everything here is structured, practical, and ready to use.
+### Hands-On Labs (6)
 
+Step-by-step builds you can follow to create real automation deliverables for your portfolio.
 
-📂 Resource Categories
+| # | Title | Difficulty | Read Time |
+|---|---|---|---|
+| 1 | [Build a Customer Support Chatbot with Claude API](hands-on-labs/01-customer-support-chatbot-claude-api.md) | Intermediate | 45 min |
+| 2 | [Build a RAG Pipeline with Pinecone & OpenAI](hands-on-labs/02-rag-pipeline-pinecone-openai.md) | Intermediate | 60 min |
+| 3 | [Automate Your CRM Pipeline with Zapier](hands-on-labs/03-automate-crm-pipeline-zapier.md) | Beginner | 30 min |
+| 4 | [Build an ETL Pipeline with Apache Airflow](hands-on-labs/04-build-etl-pipeline-airflow.md) | Advanced | 90 min |
+| 5 | [Deploy Serverless Functions with Terraform](hands-on-labs/05-deploy-serverless-terraform.md) | Intermediate | 50 min |
+| 6 | [Build an Invoice Processing Workflow with n8n](hands-on-labs/06-build-invoice-processing-n8n.md) | Intermediate | 40 min |
 
-📘 Guides
+### Case Studies (4)
 
-Step-by-step explanations to understand key concepts and tools.
+Real-world automation project breakdowns with ROI metrics, architecture diagrams, and lessons learned.
 
-🧪 Hands-On Labs
+| # | Title | Difficulty | Read Time |
+|---|---|---|---|
+| 1 | [How a Logistics Company Cut Invoice Processing by 85%](case-studies/01-logistics-invoice-automation.md) | Intermediate | 12 min |
+| 2 | [AI Support Agent Resolves 68% of Tickets Automatically](case-studies/02-ai-support-agent.md) | Intermediate | 10 min |
+| 3 | [E-Commerce Brand 3x Conversion with Marketing Automation](case-studies/03-ecommerce-marketing-automation.md) | Beginner | 8 min |
+| 4 | [Real-Time Analytics Pipeline for a FinTech Startup](case-studies/04-fintech-analytics-pipeline.md) | Advanced | 15 min |
 
-Practical exercises to apply what you learn in real scenarios.
+### Templates & Blueprints (5)
 
-📊 Case Studies
+Ready-to-use automation workflow templates, prompt libraries, and API integration starters.
 
-Real-world breakdowns of how systems, tools, and strategies are used.
+| # | Title | Difficulty | Read Time |
+|---|---|---|---|
+| 1 | [Production Prompt Library: 50+ Tested Prompts](templates/01-production-prompt-library.md) | Beginner | 5 min |
+| 2 | [Zapier Starter Kit: 10 Essential Business Workflows](templates/02-zapier-starter-kit.md) | Beginner | 5 min |
+| 3 | [API Integration Blueprint: REST, OAuth & Webhooks](templates/03-api-integration-blueprint.md) | Intermediate | 8 min |
+| 4 | [CI/CD Pipeline Template: GitHub Actions + Docker](templates/04-cicd-pipeline-template.md) | Intermediate | 6 min |
+| 5 | [Automation Project Proposal Template](templates/05-automation-project-proposal.md) | Beginner | 5 min |
 
-🏢 Industry Playbooks
+### Tool Comparisons (4)
 
-Actionable frameworks tailored to specific industries.
+In-depth comparisons of automation tools and platforms to help you pick the right one for every project.
 
-🧩 Templates
+| # | Title | Difficulty | Read Time |
+|---|---|---|---|
+| 1 | [Zapier vs Make vs n8n: Complete Comparison](tool-comparisons/01-zapier-vs-make-vs-n8n.md) | Beginner | 15 min |
+| 2 | [GPT-4 vs Claude vs Gemini vs Open-Source: LLM API Guide](tool-comparisons/02-llm-api-comparison.md) | Intermediate | 20 min |
+| 3 | [Pinecone vs Weaviate vs Chroma vs Qdrant: Vector DB Showdown](tool-comparisons/03-vector-db-comparison.md) | Intermediate | 18 min |
+| 4 | [UiPath vs Automation Anywhere vs Power Automate](tool-comparisons/04-rpa-comparison.md) | Intermediate | 14 min |
 
-Ready-to-use assets (documents, prompts, workflows).
+### Industry Playbooks (4)
 
-⚖️ Tool Comparisons
+Industry-specific automation strategies for healthcare, finance, e-commerce, and legal.
 
-Clear comparisons to help you choose the right tools faster.
+| # | Title | Difficulty | Read Time |
+|---|---|---|---|
+| 1 | [Automating for Healthcare: Compliance-First Playbook](industry-playbooks/01-healthcare-automation.md) | Advanced | 25 min |
+| 2 | [AI & Automation for Financial Services](industry-playbooks/02-fintech-automation.md) | Advanced | 22 min |
+| 3 | [E-Commerce Automation: From Cart to Fulfillment](industry-playbooks/03-ecommerce-automation.md) | Intermediate | 20 min |
+| 4 | [Legal Operations Automation Playbook](industry-playbooks/04-legal-operations.md) | Advanced | 18 min |
 
+---
 
-🎯 How to Use This Repository
+## Topic Guides (25)
 
-1. Start with Guides to understand the basics
-2. Move to Hands-On Labs to build experience
-3. Explore Case Studies for real-world context
-4. Use Templates to implement immediately
+Foundational guides organized by topic area.
 
+### AI & LLMs (5)
 
-💡 Who This Is For
+| # | Title | Difficulty | Read Time |
+|---|---|---|---|
+| 1 | [What Is Prompt Engineering? A Complete Introduction](guides/ai-and-llms/01-prompt-engineering.md) | Beginner | 8 min |
+| 2 | [Building AI Agents with GPT, Claude & Open-Source LLMs](guides/ai-and-llms/02-ai-agents.md) | Intermediate | 15 min |
+| 3 | [RAG Architecture: Connect AI to Your Business Data](guides/ai-and-llms/03-rag-architecture.md) | Intermediate | 12 min |
+| 4 | [Fine-Tuning vs Prompt Engineering: When to Use What](guides/ai-and-llms/04-fine-tuning-vs-prompt-engineering.md) | Intermediate | 10 min |
+| 5 | [AI Safety & Red Teaming for Automation Professionals](guides/ai-and-llms/05-ai-safety-red-teaming.md) | Advanced | 8 min |
 
-- Startup founders building lean systems
-- Agencies improving client delivery
-- Individuals learning AI and automation
-- Businesses optimizing operations
+### Workflow Automation (5)
 
+| # | Title | Difficulty | Read Time |
+|---|---|---|---|
+| 1 | [What Is Workflow Automation? A Beginner's Guide](guides/workflow-automation/01-workflow-automation-beginners.md) | Beginner | 6 min |
+| 2 | [Zapier vs Make vs n8n: Which Platform for Your Use Case?](guides/workflow-automation/02-platform-comparison.md) | Beginner | 12 min |
+| 3 | [10 Business Processes Every Company Should Automate First](guides/workflow-automation/03-business-processes-automation.md) | Beginner | 8 min |
+| 4 | [API Integration Patterns for Non-Developers](guides/workflow-automation/04-api-integration-patterns.md) | Intermediate | 10 min |
+| 5 | [Building Multi-Step Workflows with Error Handling](guides/workflow-automation/05-multi-step-workflows.md) | Advanced | 10 min |
 
-🔥 Vision
+### Data & Analytics (5)
 
-To become a go-to resource hub for AI and automation work—where learning is practical, fast, and directly applicable.
+| # | Title | Difficulty | Read Time |
+|---|---|---|---|
+| 1 | [Building ETL Pipelines with Python & Airflow](guides/data-and-analytics/01-etl-pipelines.md) | Intermediate | 15 min |
+| 2 | [SQL for Automation Engineers: Essential Queries](guides/data-and-analytics/02-sql-automation.md) | Beginner | 10 min |
+| 3 | [Automated Reporting Dashboards: Tools & Best Practices](guides/data-and-analytics/03-reporting-dashboards.md) | Beginner | 8 min |
+| 4 | [Data Extraction with AI: OCR, NLP & Document Processing](guides/data-and-analytics/04-data-extraction-ai.md) | Intermediate | 12 min |
+| 5 | [Real-Time Data Streaming with Kafka & Snowflake](guides/data-and-analytics/05-data-streaming.md) | Advanced | 14 min |
 
+### Cloud & Infrastructure (5)
 
-🤝 Contributing
+| # | Title | Difficulty | Read Time |
+|---|---|---|---|
+| 1 | [Cloud Automation 101: AWS Lambda, GCP Functions & Azure Logic Apps](guides/cloud-and-infrastructure/01-cloud-automation.md) | Beginner | 10 min |
+| 2 | [CI/CD Pipeline Design: From GitHub Actions to Production](guides/cloud-and-infrastructure/02-cicd-pipeline.md) | Intermediate | 12 min |
+| 3 | [Terraform for Beginners: Infrastructure as Code in Practice](guides/cloud-and-infrastructure/03-terraform.md) | Beginner | 14 min |
+| 4 | [Monitoring & Alerting for Automation Workflows](guides/cloud-and-infrastructure/04-monitoring-alerting.md) | Intermediate | 10 min |
+| 5 | [Kubernetes for Automation: Deploying Scalable AI Services](guides/cloud-and-infrastructure/05-kubernetes.md) | Advanced | 16 min |
 
-We welcome contributions that are:
+### Business & Strategy (5)
 
-- Practical (not just theory)
-- Clear and structured
-- Immediately useful
+| # | Title | Difficulty | Read Time |
+|---|---|---|---|
+| 1 | [How to Calculate Automation ROI for Client Proposals](guides/business-and-strategy/01-automation-roi.md) | Beginner | 10 min |
+| 2 | [Pricing Your Automation Services: Freelancer's Guide](guides/business-and-strategy/02-automation-pricing.md) | Beginner | 8 min |
+| 3 | [AI Compliance & Data Privacy for Automation Projects](guides/business-and-strategy/03-ai-compliance-privacy.md) | Intermediate | 12 min |
+| 4 | [Automation Project Scoping: Avoiding Scope Creep](guides/business-and-strategy/04-automation-project-scoping.md) | Beginner | 8 min |
+| 5 | [How to Become an AI & Automation Consultant](guides/business-and-strategy/05-become-automation-consultant.md) | Beginner | 10 min |
 
+---
 
-📌 Maintained by
+## How to Use
 
-Rework Digital Hub
+- **Read on GitHub** — every file renders as formatted markdown directly in the GitHub UI.
+- **Clone locally** — `git clone <this-repo-url>` to read offline or fork your own copy.
+- **Share** — link to any file directly; URLs are stable as long as filenames don't change.
+
+## License & Attribution
+
+Content authored by Rework Digital. Free to read and reference. Attribution to [reworkdigital.io](https://reworkdigital.io) appreciated when sharing.
+
+## Questions / Feedback
+
+Open an issue on this repo or reach out via [reworkdigital.io](https://reworkdigital.io).
